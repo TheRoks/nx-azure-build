@@ -1,6 +1,6 @@
 const execSync = require('child_process').execSync;
 const isMaster = process.argv[2] === 'False';
-const baseSha = isMaster ? 'origin/master~1' : 'origin/master';
+const baseSha = isMaster ? 'origin/master~3' : 'origin/master';
 
 console.log(
   JSON.stringify({
