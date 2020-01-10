@@ -7,7 +7,7 @@ steps:
     inputs:
       keyfile: '**/yarn.lock, !**/node_modules/**/yarn.lock, !**/.*/**/yarn.lock'
       targetfolder: '**/node_modules, !**/node_modules/**/node_modules'
-      vstsFeed: 'nx_azure_node_modules_cache_feed'
+      vstsFeed: '42435722-a10e-4133-9cfe-0b398a34dd14'
   - script: |
       yarn install --ignore-engines --frozen-lockfile
     displayName: Install dependencies only if there is no cache available
